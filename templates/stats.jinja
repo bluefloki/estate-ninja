@@ -1,0 +1,12 @@
+{% extends "layout.jinja" %}
+
+{% block content %}
+<div class="px-12 py-24">
+    <div class="grid grid-cols-2 gap-6">
+        <img src="{{ url_for('static', filename='img/year_price.png') }}" alt="Year Price" width="400">
+        <img src="{{ url_for('static', filename='img/building_type.png') }}" alt="Building Type" width="400">
+        <img src="{{ url_for('static', filename='img/house_style.png') }}" alt="House Style" width="400">
+    </div>
+</div>
+
+{% endblock %}
